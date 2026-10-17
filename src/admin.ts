@@ -79,7 +79,7 @@ export function buildDefaultSettings(env: Env): SystemSettings {
     maxPluginsPerSearch: DEFAULT_MAX_PLUGINS,
     hotSearches: DEFAULT_HOT_SEARCHES,
     // V1.2：搜索结果默认完全不落 KV，避免把「写 1000 次/天」的免费额度打满
-    resultCacheMode: 'memory',
+    resultCacheMode: 'off',
     visibleCloudTypes: DEFAULT_VISIBLE_CLOUDS,
     showAutoCheck: true,
     // V1.3：前台默认不需要密码，开关打开后才要求登录
