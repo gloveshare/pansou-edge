@@ -35,7 +35,7 @@ const CLOUD_RULES: Array<{ type: CloudType; reg: RegExp }> = [
   // 115 网盘 (115.com / anxia.com / 115cdn)
   {
     type: '115',
-    reg: /(?:https?:\/\/)?(?:115\.com|anxia\.com)\/(?:s|web\/lfn)\/[a-zA-Z0-9_-]+/i
+    reg: /(?:https?:\/\/)?(?:115\.com|anxia\.com|115cdn\.com)\/(?:s|web\/lfn)\/[a-zA-Z0-9_-]+/i
   },
   // PikPak (mypikpak.com / pikpak.me / drive.mypikpak.com / pikpak.in)
   {
